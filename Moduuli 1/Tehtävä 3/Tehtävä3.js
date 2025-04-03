@@ -1,5 +1,4 @@
 'use strict';
-console.log('I am awake');
 
 let age1 = parseInt(prompt('Please input a number. '));
 let age2 = parseInt(prompt('Please input another number. '));

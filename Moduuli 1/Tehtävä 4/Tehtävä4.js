@@ -1,5 +1,4 @@
 'use strict';
-console.log('I am awake');
 
 const name = prompt('Please input your name! ');
 
