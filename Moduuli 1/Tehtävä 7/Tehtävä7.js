@@ -17,4 +17,5 @@ while (start < amt_rolls) {
 
 document.querySelector(
     '#Dice').innerHTML = 'The sum of the dice you threw is ' + sum;
+document.querySelector('#Leap').style.fontSize = 'xxx-large';
 

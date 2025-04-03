@@ -1,11 +1,11 @@
 'use strict';
 
-let age1 = parseInt(prompt('Please input a number. '));
-let age2 = parseInt(prompt('Please input another number. '));
-let age3 = parseInt(prompt('Please input one final number. '));
+let num1 = parseInt(prompt('Please input a number. '));
+let num2 = parseInt(prompt('Please input another number. '));
+let num3 = parseInt(prompt('Please input one final number. '));
 
-const sum = age1 + age2 + age3;
-const mult = age1 * age2 * age3;
+const sum = num1 + num2 + num3;
+const mult = num1 * num2 * num3;
 const avr = sum / 3;
 'use strict';
 
