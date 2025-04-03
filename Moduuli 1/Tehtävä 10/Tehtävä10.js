@@ -9,7 +9,7 @@ function getRandomInt(max) {
 }
 
 let prob = 0;
-let repetitions = 100000
+let repetitions = 100000;
 let succesfulthrows = 0;
 
 while (prob < repetitions) {
@@ -17,17 +17,16 @@ while (prob < repetitions) {
   for (let start = 0; start < throws; start++) {
     const num = getRandomInt(6);
     sum += num;
-    }
+  }
   if (sum === sum_num) {
-      succesfulthrows++;
+    succesfulthrows++;
   }
   prob++;
 }
 
-const prob_calc = (succesfulthrows * 100.0) / repetitions;
+const prob_calc = ((succesfulthrows * 100.0) / repetitions).toFixed(2);
 
-document.querySelector('#sum').innerHTML = 'The probability of throwing a ' +
-    sum_num + ' with ' + throws + ' throws, is ' + prob_calc;
+document.querySelector(
+    '#sum').innerHTML = 'The probability of throwing a total sum of ' +
+    sum_num + ' with ' + throws + ' throws, is ' + prob_calc + '%';
 document.querySelector('#sum').style.fontSize = 'xxx-large';
-
-document.querySelector("#sum").innerHTML += " as" + succesfulthrows
