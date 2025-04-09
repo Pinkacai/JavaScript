@@ -12,3 +12,8 @@ document.querySelector('#header').style.fontSize = 'xxx-large';
 console.log(typeof name);
 
 
+while (start <= prime) {
+  if ((d_4 === 0 && d_100 === d_400)) {
+    const listItem = document.createElement('li');
+    listItem.textContent = start.toString(); //
+    document.querySelector("#leapYearsList").appendChild(listItem);
