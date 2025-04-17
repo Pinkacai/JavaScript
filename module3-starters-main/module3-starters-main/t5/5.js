@@ -94,7 +94,6 @@ const picArray = [
 
 const section = document.getElementById('pictures');
 
-// Loop through picArray and create article elements
 picArray.forEach(pic => {
    const article = document.createElement('article');
    article.classList.add('card');
@@ -114,13 +113,11 @@ picArray.forEach(pic => {
    const p = document.createElement('p');
    p.textContent = pic.description;
 
-   // Append all the elements to the article
    figure.appendChild(img);
    figure.appendChild(figcaption);
    article.appendChild(h2);
    article.appendChild(figure);
    article.appendChild(p);
 
-   // Append the article to the section
    section.appendChild(article);
 });
